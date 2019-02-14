@@ -15,6 +15,7 @@ sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
+    jcenter()
 }
 
 application {
@@ -24,6 +25,7 @@ application {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.beust:klaxon:5.0.1'
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
     compile "com.sparkjava:spark-kotlin:1.0.0-alpha"
     compile 'org.slf4j:slf4j-nop:1.7.25'
