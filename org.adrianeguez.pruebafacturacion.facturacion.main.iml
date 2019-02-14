@@ -1,0 +1,1060 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="facturacion:main" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" external.system.module.group="org.adrianeguez.pruebafacturacion" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.8" useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/build/classes/kotlin/main" />
+          <option name="classpath" value="$MODULE_DIR$/libs/spring-tx-3.2.7.RELEASE.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/batik-dom-1.9.1.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/batik-anim-1.9.1.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/spring-oxm-3.2.7.RELEASE.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/spring-build-src-3.2.7.RELEASE.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/spring-instrument-3.2.7.RELEASE.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/groovy-jsr223-2.4.6.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/spring-framework-bom-3.2.7.RELEASE.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/batik-script-1.9.1.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/groovy-console-2.4.6.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/xmlgraphics-commons-2.2.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/groovy-docgenerator-2.4.6.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/spring-expression-3.2.7.RELEASE.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/zip4j-1.2.7.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/spring-web-3.2.7.RELEASE.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/spring-aspects-3.2.7.RELEASE.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/batik-util-1.9.1.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/groovy-2.4.6.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/jcalendarbutton-1.4.5.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/cglib-2.2.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/jasperreports-6.4.3.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/xstream-1.4.1.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/spring-orm-3.2.7.RELEASE.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/groovy-bsf-2.4.6.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/groovy-test-2.4.6.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/tradise-utils.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/iText-2.1.7.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/jasperreports-chart-themes-6.4.3.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/xmlpull-1.1.3.1.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/groovy-nio-2.4.6.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/jasperreports-javaflow-6.4.3.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/MITyCLibOCSP-1.1.7.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/commons-javaflow-20060411.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/batik-parser-1.9.1.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/spring-core-3.2.7.RELEASE.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/spring-beans-3.2.7.RELEASE.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/facturacion-electronica-gradle-0.1.0.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/ComprobantesDesktop.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/groovy-all-1.8.0.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/bctsp-jdk16-1.43.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/commons-digester-1.7.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/groovy-templates-2.4.6.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/MITyCLibAPI-1.1.7.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/batik-awt-util-1.9.1.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/batik-css-1.9.1.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/spring-context-3.2.7.RELEASE.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/tradise-common.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/MITyCLibPolicy-1.1.7.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/MITyCLibCert-1.1.7.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/bcprov-jdk16-1.43.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/jasperreports-fonts-6.4.3.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/tradise_crypto_transport.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/JTattoo.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/log4j-1.2.16.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/hsqldb-1_8_0_10.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/xml-apis-1.3.04.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/groovy-swing-2.4.6.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/spring-aop-3.2.7.RELEASE.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/xmlsec-1.4.2-ADSI-1.0.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/spring-instrument-tomcat-3.2.7.RELEASE.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/tradise-crypto-api.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/firma-xades.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/spring-context-support-3.2.7.RELEASE.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/batik-ext-1.9.1.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/xml-apis.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/org-apache-commons-logging.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/commons-lang-2.4.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/groovy-testng-2.4.6.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/appframework-1.0.3.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/commons-logging-1.1.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/cliente-ws-offline.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/bcmail-jdk16-1.43.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/barcode4j-2.0.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/groovy-sql-2.4.6.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/spring-webmvc-3.2.7.RELEASE.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/spring-test-3.2.7.RELEASE.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/spring-webmvc-portlet-3.2.7.RELEASE.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/groovy-groovysh-2.4.6.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/groovy-xml-2.4.6.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/groovy-groovydoc-2.4.6.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/groovy-servlet-2.4.6.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/spring-struts-3.2.7.RELEASE.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/swing-worker-1.1.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/jasperreports-chart-customizers-6.4.3.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/groovy-ant-2.4.6.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/spring-jms-3.2.7.RELEASE.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/groovy-all-1.7.5.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/groovy-jmx-2.4.6.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/XadesBes.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/spring-jdbc-3.2.7.RELEASE.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/xmlsec-1.4.2.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/batik-i18n-1.9.1.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/commons-beanutils-1.8.2.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/commons-io.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/MITyCLibXADES-1.1.7.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/jruby-complete-9.0.4.0.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/batik-gvt-1.9.1.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/batik-util-1.7.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/batik-svg-dom-1.9.1.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/xml-apis-ext.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/MITyCLibTSA-1.1.7.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/mail.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/MITyCLibTrust-1.1.7.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/jasperreports-functions-6.4.3.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/xmlsec-1.4.2-ADSI-1.1.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/batik-xml-1.9.1.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/MITyCLibCrypt-1.1.7.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/groovy-json-2.4.6.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/napkinlaf-alpha001.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/commons-collections-3.2.1.jar:/home/dev-08/Documents/Github/adrianeguez/facturacion-prueba-spark/libs/batik-bridge-1.9.1.jar:/home/dev-08/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.3.11/dd9bff00d6cfca58b6c1fe89be8e0678e35cf35f/kotlin-stdlib-jdk8-1.3.11.jar:/home/dev-08/.gradle/caches/modules-2/files-2.1/com.sparkjava/spark-kotlin/1.0.0-alpha/5db6199792694f84e6a6883e01cc869fe657c265/spark-kotlin-1.0.0-alpha.jar:/home/dev-08/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-nop/1.7.25/8c7708c79afec923de8957b7d4f90177628b9fcd/slf4j-nop-1.7.25.jar:/home/dev-08/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.11/4839661cf6ce3c14b65ed7dcf5b9249b44ecca16/kotlin-stdlib-jdk7-1.3.11.jar:/home/dev-08/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar:/home/dev-08/.gradle/caches/modules-2/files-2.1/com.sparkjava/spark-core/2.6.0/a6cb0e70a18dd4f457cd7217222956da6db7ca23/spark-core-2.6.0.jar:/home/dev-08/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar:/home/dev-08/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.11/d8b8e746e279f1c4f5e08bc14a96b82e6bb1de02/kotlin-stdlib-common-1.3.11.jar:/home/dev-08/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/home/dev-08/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-webapp/9.4.4.v20170414/d2a10c903d5f1894275097d7a0dd7ddb561ec2ec/jetty-webapp-9.4.4.v20170414.jar:/home/dev-08/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-server/9.4.4.v20170414/7f454a57892d32f758267a04fe0d60af86e1676e/websocket-server-9.4.4.v20170414.jar:/home/dev-08/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlet/9.4.4.v20170414/89ea5480d499a95eff0fc10d82244e740e673bd/jetty-servlet-9.4.4.v20170414.jar:/home/dev-08/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-security/9.4.4.v20170414/df8cc123fb574607f9c5af471ac1b20d82769563/jetty-security-9.4.4.v20170414.jar:/home/dev-08/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-server/9.4.4.v20170414/d968aa111177962d476cb665e43fcbc3b9835bdf/jetty-server-9.4.4.v20170414.jar:/home/dev-08/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-servlet/9.4.4.v20170414/d171094c8f0139b18d97812677c3e203dcb33e59/websocket-servlet-9.4.4.v20170414.jar:/home/dev-08/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar:/home/dev-08/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-client/9.4.4.v20170414/efbdd5c98492f4e4e245d9837bb8f9260830c8f7/websocket-client-9.4.4.v20170414.jar:/home/dev-08/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-client/9.4.4.v20170414/6b3d9dcfa375ee4f4fe6c8bf27ccc403c76b4ae/jetty-client-9.4.4.v20170414.jar:/home/dev-08/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/9.4.4.v20170414/a2726de9b40506a9d9a346379785f9c2ce1f7a3e/jetty-http-9.4.4.v20170414.jar:/home/dev-08/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-common/9.4.4.v20170414/25ba998831e8db6aae2a712217af19effb43d83d/websocket-common-9.4.4.v20170414.jar:/home/dev-08/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.4.4.v20170414/4a1da5a31fbfcdf01e0e4b00a6c5aea96d45801f/jetty-io-9.4.4.v20170414.jar:/home/dev-08/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-xml/9.4.4.v20170414/cec1ca094de1194ed022c2098f5d98640917806c/jetty-xml-9.4.4.v20170414.jar:/home/dev-08/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-api/9.4.4.v20170414/83ac5e5ccb73da1c1839805e4d7f284422b7535f/websocket-api-9.4.4.v20170414.jar:/home/dev-08/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/9.4.4.v20170414/7104b56567b0a83eb0554054cd1c90d78f5282cc/jetty-util-9.4.4.v20170414.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="facturacion" />
+          <option name="jvmTarget" value="1.8" />
+          <option name="addCompilerBuiltIns" value="true" />
+          <option name="loadBuiltInsFromDependencies" value="true" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/kotlin" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/spring-tx-3.2.7.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/batik-dom-1.9.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/spring-webmvc-portlet-3.2.7.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/spring-instrument-tomcat-3.2.7.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/bctsp-jdk16-1.43.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/groovy-docgenerator-2.4.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/commons-digester-1.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/spring-webmvc-3.2.7.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/cliente-ws-offline.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/spring-web-3.2.7.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/tradise-utils.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/xstream-1.4.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/spring-framework-bom-3.2.7.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/spring-test-3.2.7.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/MITyCLibOCSP-1.1.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/batik-gvt-1.9.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/bcmail-jdk16-1.43.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/batik-script-1.9.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/groovy-2.4.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/jcalendarbutton-1.4.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/jasperreports-functions-6.4.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/spring-aspects-3.2.7.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/batik-i18n-1.9.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/xml-apis-ext.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/xmlpull-1.1.3.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/batik-util-1.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/MITyCLibTSA-1.1.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/napkinlaf-alpha001.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/groovy-sql-2.4.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/MITyCLibCrypt-1.1.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/batik-xml-1.9.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/batik-util-1.9.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/jasperreports-6.4.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/xml-apis.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/batik-anim-1.9.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/iText-2.1.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/groovy-bsf-2.4.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/batik-awt-util-1.9.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/ComprobantesDesktop.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/groovy-jsr223-2.4.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/MITyCLibXADES-1.1.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/mail.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/commons-lang-2.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/org-apache-commons-logging.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/batik-parser-1.9.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/xmlsec-1.4.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/spring-jdbc-3.2.7.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/XadesBes.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/groovy-jmx-2.4.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/groovy-all-1.7.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/spring-jms-3.2.7.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/groovy-ant-2.4.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/jasperreports-chart-customizers-6.4.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/swing-worker-1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/spring-struts-3.2.7.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/groovy-servlet-2.4.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/groovy-groovydoc-2.4.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/groovy-xml-2.4.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/groovy-groovysh-2.4.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/barcode4j-2.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/cglib-2.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/commons-io.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/zip4j-1.2.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/jruby-complete-9.0.4.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/firma-xades.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/appframework-1.0.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/batik-bridge-1.9.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/tradise-crypto-api.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/xmlsec-1.4.2-ADSI-1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/groovy-templates-2.4.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/commons-javaflow-20060411.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/spring-core-3.2.7.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/xmlgraphics-commons-2.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/groovy-json-2.4.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/MITyCLibAPI-1.1.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/groovy-testng-2.4.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/spring-orm-3.2.7.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/xmlsec-1.4.2-ADSI-1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/spring-aop-3.2.7.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/groovy-swing-2.4.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/xml-apis-1.3.04.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/hsqldb-1_8_0_10.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/log4j-1.2.16.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/JTattoo.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/tradise_crypto_transport.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/jasperreports-fonts-6.4.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/bcprov-jdk16-1.43.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/MITyCLibCert-1.1.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/MITyCLibPolicy-1.1.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/tradise-common.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/spring-context-3.2.7.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/MITyCLibTrust-1.1.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/spring-build-src-3.2.7.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/groovy-console-2.4.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/spring-expression-3.2.7.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/batik-css-1.9.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/batik-ext-1.9.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/batik-svg-dom-1.9.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/commons-beanutils-1.8.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/facturacion-electronica-gradle-0.1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/commons-collections-3.2.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/spring-oxm-3.2.7.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/groovy-all-1.8.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/spring-beans-3.2.7.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/commons-logging-1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/jasperreports-javaflow-6.4.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/groovy-nio-2.4.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/spring-context-support-3.2.7.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/jasperreports-chart-themes-6.4.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/groovy-test-2.4.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/spring-instrument-3.2.7.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.11" level="project" />
+    <orderEntry type="library" name="Gradle: com.sparkjava:spark-kotlin:1.0.0-alpha" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-nop:1.7.25" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.11" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.11" level="project" />
+    <orderEntry type="library" name="Gradle: com.sparkjava:spark-core:2.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.11" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-webapp:9.4.4.v20170414" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-server:9.4.4.v20170414" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-servlet:9.4.4.v20170414" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-security:9.4.4.v20170414" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-server:9.4.4.v20170414" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-servlet:9.4.4.v20170414" level="project" />
+    <orderEntry type="library" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-client:9.4.4.v20170414" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-client:9.4.4.v20170414" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-http:9.4.4.v20170414" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-common:9.4.4.v20170414" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-io:9.4.4.v20170414" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-xml:9.4.4.v20170414" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-api:9.4.4.v20170414" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-util:9.4.4.v20170414" level="project" />
+  </component>
+</module>
